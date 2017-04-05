@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45348391E9473DF00484CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A45348381E9473DF00484CF4 /* main.m */; };
+		A453483C1E9473DF00484CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A453483B1E9473DF00484CF4 /* AppDelegate.m */; };
+		A453483F1E9473DF00484CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A453483E1E9473DF00484CF4 /* ViewController.m */; };
+		A45348421E9473DF00484CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45348401E9473DF00484CF4 /* Main.storyboard */; };
+		A45348441E9473DF00484CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45348431E9473DF00484CF4 /* Assets.xcassets */; };
+		A45348471E9473DF00484CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45348451E9473DF00484CF4 /* LaunchScreen.storyboard */; };
+		A45348521E9473DF00484CF4 /* Quart2D_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45348511E9473DF00484CF4 /* Quart2D_testTests.m */; };
+		A453485D1E9473DF00484CF4 /* Quart2D_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A453485C1E9473DF00484CF4 /* Quart2D_testUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A453484E1E9473DF00484CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A453482C1E9473DF00484CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45348331E9473DF00484CF4;
+			remoteInfo = "Quart2D-test";
+		};
+		A45348591E9473DF00484CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A453482C1E9473DF00484CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45348331E9473DF00484CF4;
+			remoteInfo = "Quart2D-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A45348341E9473DF00484CF4 /* Quart2D-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quart2D-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45348381E9473DF00484CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A453483A1E9473DF00484CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A453483B1E9473DF00484CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A453483D1E9473DF00484CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A453483E1E9473DF00484CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A45348411E9473DF00484CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A45348431E9473DF00484CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45348461E9473DF00484CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45348481E9473DF00484CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A453484D1E9473DF00484CF4 /* Quart2D-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quart2D-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45348511E9473DF00484CF4 /* Quart2D_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quart2D_testTests.m; sourceTree = "<group>"; };
+		A45348531E9473DF00484CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45348581E9473DF00484CF4 /* Quart2D-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quart2D-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A453485C1E9473DF00484CF4 /* Quart2D_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quart2D_testUITests.m; sourceTree = "<group>"; };
+		A453485E1E9473DF00484CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45348311E9473DF00484CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A453484A1E9473DF00484CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45348551E9473DF00484CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A453482B1E9473DF00484CF4 = {
+			isa = PBXGroup;
+			children = (
+				A45348361E9473DF00484CF4 /* Quart2D-test */,
+				A45348501E9473DF00484CF4 /* Quart2D-testTests */,
+				A453485B1E9473DF00484CF4 /* Quart2D-testUITests */,
+				A45348351E9473DF00484CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A45348351E9473DF00484CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45348341E9473DF00484CF4 /* Quart2D-test.app */,
+				A453484D1E9473DF00484CF4 /* Quart2D-testTests.xctest */,
+				A45348581E9473DF00484CF4 /* Quart2D-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45348361E9473DF00484CF4 /* Quart2D-test */ = {
+			isa = PBXGroup;
+			children = (
+				A453483A1E9473DF00484CF4 /* AppDelegate.h */,
+				A453483B1E9473DF00484CF4 /* AppDelegate.m */,
+				A453483D1E9473DF00484CF4 /* ViewController.h */,
+				A453483E1E9473DF00484CF4 /* ViewController.m */,
+				A45348401E9473DF00484CF4 /* Main.storyboard */,
+				A45348431E9473DF00484CF4 /* Assets.xcassets */,
+				A45348451E9473DF00484CF4 /* LaunchScreen.storyboard */,
+				A45348481E9473DF00484CF4 /* Info.plist */,
+				A45348371E9473DF00484CF4 /* Supporting Files */,
+			);
+			path = "Quart2D-test";
+			sourceTree = "<group>";
+		};
+		A45348371E9473DF00484CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A45348381E9473DF00484CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A45348501E9473DF00484CF4 /* Quart2D-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45348511E9473DF00484CF4 /* Quart2D_testTests.m */,
+				A45348531E9473DF00484CF4 /* Info.plist */,
+			);
+			path = "Quart2D-testTests";
+			sourceTree = "<group>";
+		};
+		A453485B1E9473DF00484CF4 /* Quart2D-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A453485C1E9473DF00484CF4 /* Quart2D_testUITests.m */,
+				A453485E1E9473DF00484CF4 /* Info.plist */,
+			);
+			path = "Quart2D-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A45348331E9473DF00484CF4 /* Quart2D-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45348611E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-test" */;
+			buildPhases = (
+				A45348301E9473DF00484CF4 /* Sources */,
+				A45348311E9473DF00484CF4 /* Frameworks */,
+				A45348321E9473DF00484CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quart2D-test";
+			productName = "Quart2D-test";
+			productReference = A45348341E9473DF00484CF4 /* Quart2D-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A453484C1E9473DF00484CF4 /* Quart2D-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45348641E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-testTests" */;
+			buildPhases = (
+				A45348491E9473DF00484CF4 /* Sources */,
+				A453484A1E9473DF00484CF4 /* Frameworks */,
+				A453484B1E9473DF00484CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A453484F1E9473DF00484CF4 /* PBXTargetDependency */,
+			);
+			name = "Quart2D-testTests";
+			productName = "Quart2D-testTests";
+			productReference = A453484D1E9473DF00484CF4 /* Quart2D-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A45348571E9473DF00484CF4 /* Quart2D-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45348671E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-testUITests" */;
+			buildPhases = (
+				A45348541E9473DF00484CF4 /* Sources */,
+				A45348551E9473DF00484CF4 /* Frameworks */,
+				A45348561E9473DF00484CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A453485A1E9473DF00484CF4 /* PBXTargetDependency */,
+			);
+			name = "Quart2D-testUITests";
+			productName = "Quart2D-testUITests";
+			productReference = A45348581E9473DF00484CF4 /* Quart2D-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A453482C1E9473DF00484CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yafeng.sun;
+				TargetAttributes = {
+					A45348331E9473DF00484CF4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 535U5FWNZ7;
+						ProvisioningStyle = Automatic;
+					};
+					A453484C1E9473DF00484CF4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A45348331E9473DF00484CF4;
+					};
+					A45348571E9473DF00484CF4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A45348331E9473DF00484CF4;
+					};
+				};
+			};
+			buildConfigurationList = A453482F1E9473DF00484CF4 /* Build configuration list for PBXProject "Quart2D-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A453482B1E9473DF00484CF4;
+			productRefGroup = A45348351E9473DF00484CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45348331E9473DF00484CF4 /* Quart2D-test */,
+				A453484C1E9473DF00484CF4 /* Quart2D-testTests */,
+				A45348571E9473DF00484CF4 /* Quart2D-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45348321E9473DF00484CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45348471E9473DF00484CF4 /* LaunchScreen.storyboard in Resources */,
+				A45348441E9473DF00484CF4 /* Assets.xcassets in Resources */,
+				A45348421E9473DF00484CF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A453484B1E9473DF00484CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45348561E9473DF00484CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45348301E9473DF00484CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453483F1E9473DF00484CF4 /* ViewController.m in Sources */,
+				A453483C1E9473DF00484CF4 /* AppDelegate.m in Sources */,
+				A45348391E9473DF00484CF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45348491E9473DF00484CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45348521E9473DF00484CF4 /* Quart2D_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45348541E9473DF00484CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453485D1E9473DF00484CF4 /* Quart2D_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A453484F1E9473DF00484CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45348331E9473DF00484CF4 /* Quart2D-test */;
+			targetProxy = A453484E1E9473DF00484CF4 /* PBXContainerItemProxy */;
+		};
+		A453485A1E9473DF00484CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45348331E9473DF00484CF4 /* Quart2D-test */;
+			targetProxy = A45348591E9473DF00484CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A45348401E9473DF00484CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45348411E9473DF00484CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A45348451E9473DF00484CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45348461E9473DF00484CF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A453485F1E9473DF00484CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A45348601E9473DF00484CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45348621E9473DF00484CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 535U5FWNZ7;
+				INFOPLIST_FILE = "Quart2D-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A45348631E9473DF00484CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 535U5FWNZ7;
+				INFOPLIST_FILE = "Quart2D-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A45348651E9473DF00484CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Quart2D-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quart2D-test.app/Quart2D-test";
+			};
+			name = Debug;
+		};
+		A45348661E9473DF00484CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Quart2D-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quart2D-test.app/Quart2D-test";
+			};
+			name = Release;
+		};
+		A45348681E9473DF00484CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Quart2D-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quart2D-test";
+			};
+			name = Debug;
+		};
+		A45348691E9473DF00484CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Quart2D-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quart2D-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A453482F1E9473DF00484CF4 /* Build configuration list for PBXProject "Quart2D-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A453485F1E9473DF00484CF4 /* Debug */,
+				A45348601E9473DF00484CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45348611E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45348621E9473DF00484CF4 /* Debug */,
+				A45348631E9473DF00484CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A45348641E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45348651E9473DF00484CF4 /* Debug */,
+				A45348661E9473DF00484CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A45348671E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45348681E9473DF00484CF4 /* Debug */,
+				A45348691E9473DF00484CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A453482C1E9473DF00484CF4 /* Project object */;
+}
