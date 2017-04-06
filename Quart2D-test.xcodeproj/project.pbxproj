@@ -15,6 +15,13 @@
 		A45348471E9473DF00484CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45348451E9473DF00484CF4 /* LaunchScreen.storyboard */; };
 		A45348521E9473DF00484CF4 /* Quart2D_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45348511E9473DF00484CF4 /* Quart2D_testTests.m */; };
 		A453485D1E9473DF00484CF4 /* Quart2D_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A453485C1E9473DF00484CF4 /* Quart2D_testUITests.m */; };
+		A453486C1E94745800484CF4 /* FirstDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A453486B1E94745800484CF4 /* FirstDemo.m */; };
+		A453486F1E94769200484CF4 /* SecondDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A453486E1E94769200484CF4 /* SecondDemo.m */; };
+		A45348721E94769E00484CF4 /* ThirdDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A45348711E94769E00484CF4 /* ThirdDemo.m */; };
+		A45348751E9476C700484CF4 /* FourthDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A45348741E9476C700484CF4 /* FourthDemo.m */; };
+		A45348B21E94E55400484CF4 /* UIView+expand.m in Sources */ = {isa = PBXBuildFile; fileRef = A45348B11E94E55400484CF4 /* UIView+expand.m */; };
+		A49A41921E95D8D900BC84C8 /* OrangePersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49A41911E95D8D900BC84C8 /* OrangePersonViewController.m */; };
+		A49A41951E95D9D800BC84C8 /* OrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49A41941E95D9D800BC84C8 /* OrangeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		A45348581E9473DF00484CF4 /* Quart2D-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quart2D-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A453485C1E9473DF00484CF4 /* Quart2D_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quart2D_testUITests.m; sourceTree = "<group>"; };
 		A453485E1E9473DF00484CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A453486A1E94745800484CF4 /* FirstDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstDemo.h; path = ../FirstDemo.h; sourceTree = "<group>"; };
+		A453486B1E94745800484CF4 /* FirstDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstDemo.m; path = ../FirstDemo.m; sourceTree = "<group>"; };
+		A453486D1E94769200484CF4 /* SecondDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondDemo.h; path = ../SecondDemo.h; sourceTree = "<group>"; };
+		A453486E1E94769200484CF4 /* SecondDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondDemo.m; path = ../SecondDemo.m; sourceTree = "<group>"; };
+		A45348701E94769E00484CF4 /* ThirdDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdDemo.h; path = ../ThirdDemo.h; sourceTree = "<group>"; };
+		A45348711E94769E00484CF4 /* ThirdDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdDemo.m; path = ../ThirdDemo.m; sourceTree = "<group>"; };
+		A45348731E9476C700484CF4 /* FourthDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourthDemo.h; path = ../FourthDemo.h; sourceTree = "<group>"; };
+		A45348741E9476C700484CF4 /* FourthDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourthDemo.m; path = ../FourthDemo.m; sourceTree = "<group>"; };
+		A45348B01E94E55400484CF4 /* UIView+expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+expand.h"; path = "../UIView+expand.h"; sourceTree = "<group>"; };
+		A45348B11E94E55400484CF4 /* UIView+expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+expand.m"; path = "../UIView+expand.m"; sourceTree = "<group>"; };
+		A49A41901E95D8D900BC84C8 /* OrangePersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangePersonViewController.h; sourceTree = "<group>"; };
+		A49A41911E95D8D900BC84C8 /* OrangePersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangePersonViewController.m; sourceTree = "<group>"; };
+		A49A41931E95D9D800BC84C8 /* OrangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeView.h; sourceTree = "<group>"; };
+		A49A41941E95D9D800BC84C8 /* OrangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,15 @@
 		A45348361E9473DF00484CF4 /* Quart2D-test */ = {
 			isa = PBXGroup;
 			children = (
+				A49A418F1E95D8A400BC84C8 /* Views */,
 				A453483A1E9473DF00484CF4 /* AppDelegate.h */,
 				A453483B1E9473DF00484CF4 /* AppDelegate.m */,
 				A453483D1E9473DF00484CF4 /* ViewController.h */,
 				A453483E1E9473DF00484CF4 /* ViewController.m */,
+				A49A41901E95D8D900BC84C8 /* OrangePersonViewController.h */,
+				A49A41911E95D8D900BC84C8 /* OrangePersonViewController.m */,
+				A49A41931E95D9D800BC84C8 /* OrangeView.h */,
+				A49A41941E95D9D800BC84C8 /* OrangeView.m */,
 				A45348401E9473DF00484CF4 /* Main.storyboard */,
 				A45348431E9473DF00484CF4 /* Assets.xcassets */,
 				A45348451E9473DF00484CF4 /* LaunchScreen.storyboard */,
@@ -138,6 +164,23 @@
 				A453485E1E9473DF00484CF4 /* Info.plist */,
 			);
 			path = "Quart2D-testUITests";
+			sourceTree = "<group>";
+		};
+		A49A418F1E95D8A400BC84C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A45348B01E94E55400484CF4 /* UIView+expand.h */,
+				A45348B11E94E55400484CF4 /* UIView+expand.m */,
+				A453486A1E94745800484CF4 /* FirstDemo.h */,
+				A453486B1E94745800484CF4 /* FirstDemo.m */,
+				A453486D1E94769200484CF4 /* SecondDemo.h */,
+				A453486E1E94769200484CF4 /* SecondDemo.m */,
+				A45348701E94769E00484CF4 /* ThirdDemo.h */,
+				A45348711E94769E00484CF4 /* ThirdDemo.m */,
+				A45348731E9476C700484CF4 /* FourthDemo.h */,
+				A45348741E9476C700484CF4 /* FourthDemo.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +319,14 @@
 			files = (
 				A453483F1E9473DF00484CF4 /* ViewController.m in Sources */,
 				A453483C1E9473DF00484CF4 /* AppDelegate.m in Sources */,
+				A453486F1E94769200484CF4 /* SecondDemo.m in Sources */,
 				A45348391E9473DF00484CF4 /* main.m in Sources */,
+				A49A41951E95D9D800BC84C8 /* OrangeView.m in Sources */,
+				A45348751E9476C700484CF4 /* FourthDemo.m in Sources */,
+				A45348721E94769E00484CF4 /* ThirdDemo.m in Sources */,
+				A45348B21E94E55400484CF4 /* UIView+expand.m in Sources */,
+				A49A41921E95D8D900BC84C8 /* OrangePersonViewController.m in Sources */,
+				A453486C1E94745800484CF4 /* FirstDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +475,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 535U5FWNZ7;
 				INFOPLIST_FILE = "Quart2D-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 535U5FWNZ7;
 				INFOPLIST_FILE = "Quart2D-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sun.Quart2D-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +560,7 @@
 				A45348631E9473DF00484CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A45348641E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-testTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +569,7 @@
 				A45348661E9473DF00484CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A45348671E9473DF00484CF4 /* Build configuration list for PBXNativeTarget "Quart2D-testUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +578,7 @@
 				A45348691E9473DF00484CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
